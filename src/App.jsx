@@ -1,9 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import PageNotFound from "./pages/PageNotFound";
-import Pricing from "./pages/Pricing";
-import Product from "./pages/Product";
 import AppLayout from "./pages/AppLayout";
+import Homepage from "./pages/Homepage";
+import PageNotFound from "./pages/PageNotFound";
+import Product from "./pages/Product";
+import Pricing from "./pages/Pricing";
+import Login from "./pages/Login";
 
 function App() {
 	return (
@@ -11,7 +12,7 @@ function App() {
 			<Routes>
 				<Route
 					path="/"
-					element={<Home />}
+					element={<Homepage />}
 				/>
 				<Route
 					path="*"
@@ -20,6 +21,10 @@ function App() {
 				<Route
 					path="app"
 					element={<AppLayout />}
+				/>
+				<Route
+					path="Login"
+					element={<Login />}
 				/>
 				<Route
 					path="pricing"
