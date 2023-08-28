@@ -5,11 +5,12 @@ import AppLayout from "./pages/AppLayout";
 import City from "./components/City";
 import CityList from "./components/CityList";
 import CountryList from "./components/CountryList";
+import Form from "./components/Form";
 import Homepage from "./pages/Homepage";
+import Login from "./pages/Login";
 import PageNotFound from "./pages/PageNotFound";
 import Pricing from "./pages/Pricing";
 import Product from "./pages/Product";
-import Login from "./pages/Login";
 
 const BASE_URL = "http://localhost:8000";
 
@@ -26,7 +27,6 @@ function App() {
 				const data = await res.json();
 
 				setCities(data);
-				console.log(cities, isLoading);
 			} catch {
 				alert("There was an error loading the cities data...");
 			} finally {
@@ -85,7 +85,7 @@ function App() {
 					/>
 					<Route
 						path="form"
-						element={<p>Form.</p>}
+						element={<Form />}
 					/>
 				</Route>
 				<Route
