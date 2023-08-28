@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import AppLayout from "./pages/AppLayout";
+import City from "./components/City";
 import CityList from "./components/CityList";
 import CountryList from "./components/CountryList";
 import Homepage from "./pages/Homepage";
@@ -70,6 +71,10 @@ function App() {
 						}
 					/>
 					<Route
+						path="cities/:id"
+						element={<City />}
+					/>
+					<Route
 						path="countries"
 						element={
 							<CountryList
@@ -84,7 +89,7 @@ function App() {
 					/>
 				</Route>
 				<Route
-					path="Login"
+					path="login"
 					element={<Login />}
 				/>
 				<Route
