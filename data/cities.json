@@ -1,40 +1,172 @@
 {
-	"cities": [
-		{
-			"cityName": "Lisbon",
-			"country": "Portugal",
-			"emoji": "🇵🇹",
-			"date": "2027-10-31T15:59:59.138Z",
-			"notes": "My favorite city so far!",
-			"position": {
-				"lat": 38.727881642324164,
-				"lng": -9.140900099907554
-			},
-			"id": 73930385
-		},
-		{
-			"cityName": "Madrid",
-			"country": "Spain",
-			"emoji": "🇪🇸",
-			"date": "2027-07-15T08:22:53.976Z",
-			"notes": "",
-			"position": {
-				"lat": 40.46635901755316,
-				"lng": -3.7133789062500004
-			},
-			"id": 17806751
-		},
-		{
-			"cityName": "Berlin",
-			"country": "Germany",
-			"emoji": "🇩🇪",
-			"date": "2027-02-12T09:24:11.863Z",
-			"notes": "Amazing 😃",
-			"position": {
-				"lat": 52.53586782505711,
-				"lng": 13.376933665713324
-			},
-			"id": 98443197
-		}
-	]
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": 73930385
+    },
+    {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": 17806751
+    },
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": 98443197
+    },
+    {
+      "cityName": "Valencia de Don Juan",
+      "country": "Spain",
+      "date": "2023-09-01T03:47:46.269Z",
+      "emoji": "🇪🇸",
+      "notes": "asdfasdfaf",
+      "position": {
+        "lat": "42.309815415686664",
+        "lng": "-5.493164062500001"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Coust",
+      "country": "France",
+      "date": "2023-09-01T03:48:24.798Z",
+      "emoji": "🇫🇷",
+      "notes": "asdfasf",
+      "position": {
+        "lat": "46.6795944656402",
+        "lng": "2.5708007812500004"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Montereau-Fault-Yonne",
+      "country": "France",
+      "date": "2023-09-01T03:48:35.537Z",
+      "emoji": "🇫🇷",
+      "notes": "asdfasdf",
+      "position": {
+        "lat": "48.38544219115486",
+        "lng": "2.96630859375"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Alcazar del Rey",
+      "country": "Spain",
+      "date": "2023-09-01T03:48:42.058Z",
+      "emoji": "🇪🇸",
+      "notes": "asdfasdf",
+      "position": {
+        "lat": "40.027614437486655",
+        "lng": "-2.83447265625"
+      },
+      "id": 98443201
+    },
+    {
+      "cityName": "Alcazar del Rey",
+      "country": "Spain",
+      "date": "2023-09-01T03:48:42.058Z",
+      "emoji": "🇪🇸",
+      "notes": "asdfasdf",
+      "position": {
+        "lat": "40.027614437486655",
+        "lng": "-2.83447265625"
+      },
+      "id": 98443202
+    },
+    {
+      "cityName": "Jina",
+      "country": "Romania",
+      "date": "2023-09-01T03:52:51.789Z",
+      "emoji": "🇷🇴",
+      "notes": "asdfasdf",
+      "position": {
+        "lat": "45.5679096098613",
+        "lng": "23.70849609375"
+      },
+      "id": 98443203
+    },
+    {
+      "cityName": "Chicago",
+      "country": "United States of America (the)",
+      "date": "2023-09-01T03:53:31.879Z",
+      "emoji": "🇺🇸",
+      "notes": "Chiraq.",
+      "position": {
+        "lat": "41.57436130598913",
+        "lng": "-87.97851562500001"
+      },
+      "id": 98443204
+    },
+    {
+      "cityName": "Helsinki",
+      "country": "Finland",
+      "date": "2023-09-01T03:55:30.483Z",
+      "emoji": "🇫🇮",
+      "notes": "SPURDO",
+      "position": {
+        "lat": "60.141504734793386",
+        "lng": "25.048828125000004"
+      },
+      "id": 98443205
+    },
+    {
+      "cityName": "Stockholm",
+      "country": "Sweden",
+      "date": "2023-09-01T03:56:07.656Z",
+      "emoji": "🇸🇪",
+      "notes": "I wonder if Kirinodere is cute.",
+      "position": {
+        "lat": "59.32198054010197",
+        "lng": "18.083496093750004"
+      },
+      "id": 98443206
+    },
+    {
+      "cityName": "Oslo",
+      "country": "Norway",
+      "date": "2023-09-01T03:56:53.459Z",
+      "emoji": "🇳🇴",
+      "notes": "Rich area.",
+      "position": {
+        "lat": "59.91097597079679",
+        "lng": "10.810546875000002"
+      },
+      "id": 98443207
+    },
+    {
+      "cityName": "Reykjavik",
+      "country": "Iceland",
+      "date": "2023-09-01T03:58:04.043Z",
+      "emoji": "🇮🇸",
+      "notes": "This country supposedly has good privacy laws.",
+      "position": {
+        "lat": "64.0914075226231",
+        "lng": "-21.796875000000004"
+      },
+      "id": 98443208
+    }
+  ]
 }
