@@ -97,18 +97,6 @@
       "id": 98443203
     },
     {
-      "cityName": "Chicago",
-      "country": "United States of America (the)",
-      "date": "2023-09-01T03:53:31.879Z",
-      "emoji": "🇺🇸",
-      "notes": "Chiraq.",
-      "position": {
-        "lat": "41.57436130598913",
-        "lng": "-87.97851562500001"
-      },
-      "id": 98443204
-    },
-    {
       "cityName": "Helsinki",
       "country": "Finland",
       "date": "2023-09-01T03:55:30.483Z",
@@ -155,6 +143,18 @@
         "lng": "-21.796875000000004"
       },
       "id": 98443208
+    },
+    {
+      "cityName": "Paris",
+      "country": "France",
+      "date": "2023-09-02T01:22:42.287Z",
+      "emoji": "🇫🇷",
+      "notes": "L'Occitane!",
+      "position": {
+        "lat": "48.864714761802794",
+        "lng": "2.4169921875000004"
+      },
+      "id": 98443209
     }
   ]
 }
