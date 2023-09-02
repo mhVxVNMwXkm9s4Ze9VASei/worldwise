@@ -13,6 +13,7 @@ import Product from "./pages/Product";
 
 import { AuthProvider } from "./contexts/FakeAuthContext";
 import { CitiesProvider } from "./contexts/CitiesContext";
+import ProtectedRoute from "./pages/ProtectedRoute";
 
 function App() {
 	return (
@@ -30,7 +31,11 @@ function App() {
 						/>
 						<Route
 							path="app"
-							element={<AppLayout />}
+							element={
+								<ProtectedRoute>
+									<AppLayout />
+								</ProtectedRoute>
+							}
 						>
 							<Route
 								index
