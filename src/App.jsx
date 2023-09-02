@@ -10,66 +10,70 @@ import Login from "./pages/Login";
 import PageNotFound from "./pages/PageNotFound";
 import Pricing from "./pages/Pricing";
 import Product from "./pages/Product";
+
+import { AuthProvider } from "./contexts/FakeAuthContext";
 import { CitiesProvider } from "./contexts/CitiesContext";
 
 function App() {
 	return (
-		<CitiesProvider>
-			<BrowserRouter>
-				<Routes>
-					<Route
-						path="/"
-						element={<Homepage />}
-					/>
-					<Route
-						path="*"
-						element={<PageNotFound />}
-					/>
-					<Route
-						path="app"
-						element={<AppLayout />}
-					>
+		<AuthProvider>
+			<CitiesProvider>
+				<BrowserRouter>
+					<Routes>
 						<Route
-							index
-							element={
-								<Navigate
-									replace
-									to="cities"
-								/>
-							}
+							path="/"
+							element={<Homepage />}
 						/>
 						<Route
-							path="cities"
-							element={<CityList />}
+							path="*"
+							element={<PageNotFound />}
 						/>
 						<Route
-							path="cities/:id"
-							element={<City />}
+							path="app"
+							element={<AppLayout />}
+						>
+							<Route
+								index
+								element={
+									<Navigate
+										replace
+										to="cities"
+									/>
+								}
+							/>
+							<Route
+								path="cities"
+								element={<CityList />}
+							/>
+							<Route
+								path="cities/:id"
+								element={<City />}
+							/>
+							<Route
+								path="countries"
+								element={<CountryList />}
+							/>
+							<Route
+								path="form"
+								element={<Form />}
+							/>
+						</Route>
+						<Route
+							path="login"
+							element={<Login />}
 						/>
 						<Route
-							path="countries"
-							element={<CountryList />}
+							path="pricing"
+							element={<Pricing />}
 						/>
 						<Route
-							path="form"
-							element={<Form />}
+							path="product"
+							element={<Product />}
 						/>
-					</Route>
-					<Route
-						path="login"
-						element={<Login />}
-					/>
-					<Route
-						path="pricing"
-						element={<Pricing />}
-					/>
-					<Route
-						path="product"
-						element={<Product />}
-					/>
-				</Routes>
-			</BrowserRouter>
-		</CitiesProvider>
+					</Routes>
+				</BrowserRouter>
+			</CitiesProvider>
+		</AuthProvider>
 	);
 }
 
